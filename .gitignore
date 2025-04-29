@@ -1,0 +1,22 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.idea/
+*.vscode/
+*.DS_Store
+
+# Исключаем содержимое models, кроме структуры папок
+models/*
+!models/.gitkeep
+
+models/iso/*
+!models/iso/.gitkeep
+
+data/*
+!data/.gitkeep
