@@ -11,7 +11,7 @@ __pycache__/
 *.vscode/
 *.DS_Store
 
-# Исключаем содержимое models, кроме структуры папок
+# models
 models/*
 !models/.gitkeep
 
