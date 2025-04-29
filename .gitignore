@@ -11,12 +11,11 @@ __pycache__/
 *.vscode/
 *.DS_Store
 
-# models
-models/*
-!models/.gitkeep
-
-models/iso/*
-!models/iso/.gitkeep
-
+# models and data
 data/*
 !data/.gitkeep
+models/*
+!models/.gitkeep
+!models/iso/
+models/iso/*
+!models/iso/.gitkeep
